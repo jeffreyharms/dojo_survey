@@ -10,7 +10,7 @@
 <body>
     <h1>Dojo Survey</h1>
     <h3>Register Ninja</h3>
-    <form action='/submit' method='post'>
+    <form action='/survey' method='post'>
         <label for='name'>Your Name:</label>
         <input type='text' name='name'>
         <label for='location'>Dojo Location:</label>
@@ -21,18 +21,11 @@
             <option value="C#">C#</option>
             <option value="java">java</option>
         </select>
+        <div>
+            <label for="comments">Comments(optional):</label>
+            <input type="text" name="comments">
+        </div>
         <input type='submit' value='submit'>
     </form>
-    <!-- <div class="frame">
-        <label for="your_name">Your Name:</label>
-        <input type="text" class="name" name="your_name">
-        <label for="dojo_location">Dojo Location:</label>
-        <button class="location" type="menu" name="dojo_location"></button>
-        <label for="favorite_language">Favorite Language:</label>
-        <button class="language" type="menu" name="favorite_language"></button>
-        <label for="comment_field">Comment (optional):</label>
-        <input type="text" class="comment" name="comment_field">
-        <button class="submit" name="submit" type="submit">Submit</button>
-    </div> -->
 </body>
 </html>
